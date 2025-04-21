@@ -22,6 +22,6 @@ public record AstronautRequestDTO(
         int experienceYears,
 
         @NotNull(message = "satellites cannot be null.")
-        List<Integer> satelliteIds
+        List<Long> satelliteIds
 ) {
 }
